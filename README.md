@@ -23,10 +23,10 @@ If everything worked the Console returns a List of all Characters from the Datab
 ![Database](img/Tester01.PNG)
 
 Character was added to Database:
-![Database](img/Database_Character01.PNG)
+![Database](img/Database_Characters01.PNG)
 
 If the given Planet did not exist before, it's added as a new Planet:
-![Database](img/Database_Planets01.PNG)
+![Database](img/Databse_Planets01.PNG)
 
 ## Todo
 
