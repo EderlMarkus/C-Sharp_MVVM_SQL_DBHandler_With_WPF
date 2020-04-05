@@ -1,0 +1,13 @@
+D:\WI_Studium\WI_SS2020\Komponentenbasierte Anwendungsentwicklung\31032020\StarWarsDatenbank\DBHandler\DBHandler\bin\Debug\DBHandler.dll.config
+D:\WI_Studium\WI_SS2020\Komponentenbasierte Anwendungsentwicklung\31032020\StarWarsDatenbank\DBHandler\DBHandler\bin\Debug\DBHandler.dll
+D:\WI_Studium\WI_SS2020\Komponentenbasierte Anwendungsentwicklung\31032020\StarWarsDatenbank\DBHandler\DBHandler\bin\Debug\DBHandler.pdb
+D:\WI_Studium\WI_SS2020\Komponentenbasierte Anwendungsentwicklung\31032020\StarWarsDatenbank\DBHandler\DBHandler\bin\Debug\EntityFramework.dll
+D:\WI_Studium\WI_SS2020\Komponentenbasierte Anwendungsentwicklung\31032020\StarWarsDatenbank\DBHandler\DBHandler\bin\Debug\EntityFramework.SqlServer.dll
+D:\WI_Studium\WI_SS2020\Komponentenbasierte Anwendungsentwicklung\31032020\StarWarsDatenbank\DBHandler\DBHandler\bin\Debug\EntityFramework.xml
+D:\WI_Studium\WI_SS2020\Komponentenbasierte Anwendungsentwicklung\31032020\StarWarsDatenbank\DBHandler\DBHandler\bin\Debug\EntityFramework.SqlServer.xml
+D:\WI_Studium\WI_SS2020\Komponentenbasierte Anwendungsentwicklung\31032020\StarWarsDatenbank\DBHandler\DBHandler\bin\Debug\de\EntityFramework.resources.dll
+D:\WI_Studium\WI_SS2020\Komponentenbasierte Anwendungsentwicklung\31032020\StarWarsDatenbank\DBHandler\DBHandler\bin\Debug\de\EntityFramework.SqlServer.resources.dll
+D:\WI_Studium\WI_SS2020\Komponentenbasierte Anwendungsentwicklung\31032020\StarWarsDatenbank\DBHandler\DBHandler\obj\Debug\DBHandler.csprojAssemblyReference.cache
+D:\WI_Studium\WI_SS2020\Komponentenbasierte Anwendungsentwicklung\31032020\StarWarsDatenbank\DBHandler\DBHandler\obj\Debug\DBHandler.csproj.CopyComplete
+D:\WI_Studium\WI_SS2020\Komponentenbasierte Anwendungsentwicklung\31032020\StarWarsDatenbank\DBHandler\DBHandler\obj\Debug\DBHandler.dll
+D:\WI_Studium\WI_SS2020\Komponentenbasierte Anwendungsentwicklung\31032020\StarWarsDatenbank\DBHandler\DBHandler\obj\Debug\DBHandler.pdb

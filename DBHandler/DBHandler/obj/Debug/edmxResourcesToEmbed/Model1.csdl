@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StarWarsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Charakter">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="isForceUser" Type="Int32" />
+    <Property Name="Side" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="HomePlanet" Type="Guid" Nullable="false" />
+    <NavigationProperty Name="Planet" Relationship="Self.FK_Charakter_ToTable" FromRole="Charakter" ToRole="Planet" />
+  </EntityType>
+  <EntityType Name="Planet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Einwohnerzahl" Type="Int64" />
+    <Property Name="Föderation" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Region" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Charakter" Relationship="Self.FK_Charakter_ToTable" FromRole="Planet" ToRole="Charakter" />
+  </EntityType>
+  <Association Name="FK_Charakter_ToTable">
+    <End Role="Planet" Type="Self.Planet" Multiplicity="1" />
+    <End Role="Charakter" Type="Self.Charakter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Planet">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Charakter">
+        <PropertyRef Name="HomePlanet" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="StarWarsEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Charakter" EntityType="Self.Charakter" />
+    <EntitySet Name="Planet" EntityType="Self.Planet" />
+    <AssociationSet Name="FK_Charakter_ToTable" Association="Self.FK_Charakter_ToTable">
+      <End Role="Planet" EntitySet="Planet" />
+      <End Role="Charakter" EntitySet="Charakter" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

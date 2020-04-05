@@ -1,0 +1,14 @@
+D:\WI_Studium\WI_SS2020\Komponentenbasierte Anwendungsentwicklung\31032020\StarWarsDatenbank\DBHandler\Tester\bin\Debug\Tester.exe.config
+D:\WI_Studium\WI_SS2020\Komponentenbasierte Anwendungsentwicklung\31032020\StarWarsDatenbank\DBHandler\Tester\bin\Debug\Tester.exe
+D:\WI_Studium\WI_SS2020\Komponentenbasierte Anwendungsentwicklung\31032020\StarWarsDatenbank\DBHandler\Tester\bin\Debug\Tester.pdb
+D:\WI_Studium\WI_SS2020\Komponentenbasierte Anwendungsentwicklung\31032020\StarWarsDatenbank\DBHandler\Tester\bin\Debug\DBHandler.dll
+D:\WI_Studium\WI_SS2020\Komponentenbasierte Anwendungsentwicklung\31032020\StarWarsDatenbank\DBHandler\Tester\bin\Debug\EntityFramework.dll
+D:\WI_Studium\WI_SS2020\Komponentenbasierte Anwendungsentwicklung\31032020\StarWarsDatenbank\DBHandler\Tester\bin\Debug\EntityFramework.SqlServer.dll
+D:\WI_Studium\WI_SS2020\Komponentenbasierte Anwendungsentwicklung\31032020\StarWarsDatenbank\DBHandler\Tester\bin\Debug\DBHandler.pdb
+D:\WI_Studium\WI_SS2020\Komponentenbasierte Anwendungsentwicklung\31032020\StarWarsDatenbank\DBHandler\Tester\bin\Debug\DBHandler.dll.config
+D:\WI_Studium\WI_SS2020\Komponentenbasierte Anwendungsentwicklung\31032020\StarWarsDatenbank\DBHandler\Tester\bin\Debug\EntityFramework.xml
+D:\WI_Studium\WI_SS2020\Komponentenbasierte Anwendungsentwicklung\31032020\StarWarsDatenbank\DBHandler\Tester\bin\Debug\EntityFramework.SqlServer.xml
+D:\WI_Studium\WI_SS2020\Komponentenbasierte Anwendungsentwicklung\31032020\StarWarsDatenbank\DBHandler\Tester\obj\Debug\Tester.csprojAssemblyReference.cache
+D:\WI_Studium\WI_SS2020\Komponentenbasierte Anwendungsentwicklung\31032020\StarWarsDatenbank\DBHandler\Tester\obj\Debug\Tester.csproj.CopyComplete
+D:\WI_Studium\WI_SS2020\Komponentenbasierte Anwendungsentwicklung\31032020\StarWarsDatenbank\DBHandler\Tester\obj\Debug\Tester.exe
+D:\WI_Studium\WI_SS2020\Komponentenbasierte Anwendungsentwicklung\31032020\StarWarsDatenbank\DBHandler\Tester\obj\Debug\Tester.pdb

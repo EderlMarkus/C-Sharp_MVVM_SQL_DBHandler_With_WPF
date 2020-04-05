@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StarWarsModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Charakter">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="isForceUser" Type="int" />
+    <Property Name="Side" Type="nvarchar" MaxLength="50" />
+    <Property Name="HomePlanet" Type="uniqueidentifier" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Planet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Einwohnerzahl" Type="bigint" />
+    <Property Name="Föderation" Type="nvarchar" MaxLength="50" />
+    <Property Name="Region" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_Charakter_ToTable">
+    <End Role="Planet" Type="Self.Planet" Multiplicity="1" />
+    <End Role="Charakter" Type="Self.Charakter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Planet">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Charakter">
+        <PropertyRef Name="HomePlanet" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="StarWarsModelStoreContainer">
+    <EntitySet Name="Charakter" EntityType="Self.Charakter" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Planet" EntityType="Self.Planet" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Charakter_ToTable" Association="Self.FK_Charakter_ToTable">
+      <End Role="Planet" EntitySet="Planet" />
+      <End Role="Charakter" EntitySet="Charakter" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

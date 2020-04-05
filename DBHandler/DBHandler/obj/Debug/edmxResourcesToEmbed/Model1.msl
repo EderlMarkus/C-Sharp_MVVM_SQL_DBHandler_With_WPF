@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="StarWarsModelStoreContainer" CdmEntityContainer="StarWarsEntities">
+    <EntitySetMapping Name="Charakter">
+      <EntityTypeMapping TypeName="StarWarsModel.Charakter">
+        <MappingFragment StoreEntitySet="Charakter">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="isForceUser" ColumnName="isForceUser" />
+          <ScalarProperty Name="Side" ColumnName="Side" />
+          <ScalarProperty Name="HomePlanet" ColumnName="HomePlanet" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Planet">
+      <EntityTypeMapping TypeName="StarWarsModel.Planet">
+        <MappingFragment StoreEntitySet="Planet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Einwohnerzahl" ColumnName="Einwohnerzahl" />
+          <ScalarProperty Name="Föderation" ColumnName="Föderation" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
